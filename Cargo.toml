@@ -1,0 +1,13 @@
+[package]
+name = "shq"
+version = "0.1.0"
+authors = ["xztaityozx <taityonohibi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {git = "https://github.com/clap-rs/clap/"}
+dirs = "2.0.2"
+serde = {git = "https://github.com/serde-rs/serde", features=["derive"]}
+serde_json="1.0"
